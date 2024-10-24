@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOAST UI Image Editor</title>
+
+    <!-- TOAST UI CSS -->
+    <link rel="stylesheet" href="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <!-- Upload and Save buttons -->
+        <label for="upload-image-button" class="custom-button">Upload Image</label>
+        <input type="file" id="upload-image-button" accept="image/*" style="display: none;"> <!-- Hidden input -->
+        <button id="save-button" class="custom-button">Save Image</button>
+    </div>
+
+    <!-- Image Editor Container -->
+    <div id="tui-image-editor-container"></div>
+
+    <!-- Fabric.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.1/fabric.min.js"></script>
+
+    <!-- tui-color-picker.js -->
+    <script src="https://uicdn.toast.com/tui-color-picker/latest/tui-color-picker.js"></script>
+
+    <!-- TOAST UI Image Editor JS -->
+    <script src="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.js"></script>
+
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+</body>
+</html>
