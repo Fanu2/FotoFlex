@@ -14,8 +14,7 @@ FotoFlex is a simple and intuitive image editing application that leverages the 
 
 ## Demo
 
-![Demo Screenshot]https://foto-flex-coral.vercel.app/-- Optional: Add a demo screenshot here -->
-
+https://foto-flex-coral.vercel.app/
 ## Installation
 
 ### Prerequisites
